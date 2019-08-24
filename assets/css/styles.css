@@ -1,0 +1,150 @@
+.header{
+    background:lightgray;
+    height: 90px;
+}
+form{
+    width: 960px;
+    height: 350px;
+    background-color: lightgray;
+    margin: 0 auto;
+    font-size: 18pt;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+#content{
+    width: 960px;
+    height: 400px;
+    background-color: lightgray;
+    margin: 0 auto;
+    font-size: 18pt;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.navbar{
+    float: right;
+    color: white;
+    font-size: 17pt;
+    padding-top: 30px;
+    text-decoration: none;
+    
+}
+
+.subbar{
+    width: 960px;
+    margin: 0 auto;
+    background:lightgray;
+  
+}
+.namebox{
+    height: 90px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    font-size: 26pt;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+#img{
+    max-width: 15%;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+}
+#contact{
+    font-weight: bold;
+    font-size: 28pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aboutme{
+    font-weight: bold;
+    font-size: 28pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    height:50px;
+    background: lightgray;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.copyright{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.portmain{
+    width: 960px;
+    height: 600px;
+    background-color: lightgray;
+    margin:  auto;
+    font-size: 18pt;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+
+}
+.portheader{
+font-weight: bold;
+font-size: 28pt;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 28pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects{
+height: 200px;
+width: 200px;
+background-color: green;
+margin: 20px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+.right {
+    float: right;
+}
+.projectsArea{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.hangman{
+    background-image: url("../images/hangman.png");
+    
+}
+.rpg{
+    background-image: url("../images/rpg.jpeg");
+}
+.trivia{
+    background-image: url("../images/trivia.jpeg");
+    color: white;
+    text-align: center;
+}
+.riw{
+    background-image: url("../images/RIW.jpeg");
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+.bottomhalf{
+    padding-bottom: 150px;
+}
+@media () {
+
+}
+@media () {
+    
+}
+@media () {
+    
+}
