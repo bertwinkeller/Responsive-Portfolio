@@ -142,20 +142,37 @@ margin: 20px;
 }
 
 @media screen and (max-width: 640px){
+    .container{
+        margin-top: 70px;
+    }
+.bottomhalf{
+    margin-top: 70px;
+}
+    .header{
+        width: 100%;
+    }
+#form{
+    margin-top: 70px;
+}
     .subbar{
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        margin: auto;
+        width: 100%;
+   
     }
     .headname{
         order: 1;
         margin: auto;
-        width: 100%;
+     
+      
     }
     .navbar{
         order: 2;
         margin: auto;
         width: 100%;
+    /*    text-align: center; */
   
     }
 
@@ -167,7 +184,7 @@ margin: 20px;
     }
 }
 @media screen and (max-width: 980px){
-.content{
+    /* entire page with links still visible at 980 px,
+    did not need to write a media query for this one */
 
-}
 }
