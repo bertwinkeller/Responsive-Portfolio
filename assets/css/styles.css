@@ -144,16 +144,28 @@ margin: 20px;
 @media screen and (max-width: 980px){
 
 
-    .portmain{
-        width: 100%;
-        height: auto;
+    .bottomhalf{
+width: 100%;
+height: 1500px;
+    
     }
-    .subbar{
+
+ .portmain{
+   width: 100%;
+  height: 1000px;
+    }
+.subbar{
         width:100%;
     }
+
+.projectsArea{
+    width: 100%;
+    height: auto;
+}
 #content{
     width: 100%;
     height: auto;
+    margin-bottom: 100px;
 }
 #form{
     width: 100%;
@@ -163,13 +175,31 @@ margin: 20px;
 body{
     overflow: scroll;
 }
+form{
+    width: 95%;
+    height: auto;
+}
+
+#nameinput{
+    width: 95%;
 
 }
+#emailinput{
+    width: 95%;
+}
+#messageinput{
+    width: 95%;
+}
+}
  @media screen and  (max-width: 768px){
+     
+     .bottomhalf{
+         height: auto;
+     }
 
     .portmain{
         width: 100%;
-        height: auto;
+        height: 1100px;
     }
     .subbar{
         width:100%;
@@ -177,11 +207,30 @@ body{
 body{
     overflow: scroll;
 }
+
+#content{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.bottomhalf{
+    width: 100%;
+    height: auto;
+
+}
+.projectsArea{
+    width: 100%;
+    height: auto;
+}
     }
 
 
 
 @media screen and (max-width: 640px){
+  body{
+      overflow: scroll;
+  }  
+    
     .container{
         margin-top: 70px;
     }
