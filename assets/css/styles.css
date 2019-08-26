@@ -141,6 +141,46 @@ margin: 20px;
     padding-bottom: 150px;
 }
 
+@media screen and (max-width: 980px){
+
+
+    .portmain{
+        width: 100%;
+        height: auto;
+    }
+    .subbar{
+        width:100%;
+    }
+#content{
+    width: 100%;
+    height: auto;
+}
+#form{
+    width: 100%;
+    height: auto;
+
+}
+body{
+    overflow: scroll;
+}
+
+}
+ @media screen and  (max-width: 768px){
+
+    .portmain{
+        width: 100%;
+        height: auto;
+    }
+    .subbar{
+        width:100%;
+    }
+body{
+    overflow: scroll;
+}
+    }
+
+
+
 @media screen and (max-width: 640px){
     .container{
         margin-top: 70px;
@@ -177,14 +217,4 @@ margin: 20px;
     }
 
 }
-@media screen and  (max-width: 768px){
-    #content{
-   
-        margin: 20px;
-    }
-}
-@media screen and (max-width: 980px){
-    /* entire page with links still visible at 980 px,
-    did not need to write a media query for this one */
 
-}
